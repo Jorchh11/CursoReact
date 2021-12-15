@@ -1,0 +1,11 @@
+$color: #bf4080;
+$color-sass: #bf408090;
+.bg-sass{
+    background-color: $color;
+    transition: background-color .5s ease-in-out;
+
+    &:hover{
+        background-color: $color-sass;
+    }
+}
+
